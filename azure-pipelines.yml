@@ -1,8 +1,7 @@
 trigger:
 - '*'
 
-
-    pool: linux
+pool: linux
   #vmImage: 'ubuntu-20.04'
   #demands:
   #- npm
@@ -58,4 +57,3 @@ steps:
 
 - publish: '$(Build.ArtifactStagingDirectory)'
   artifact: drop
-  
